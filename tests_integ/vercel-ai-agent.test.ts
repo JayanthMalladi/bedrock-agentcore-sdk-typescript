@@ -11,7 +11,7 @@ import { CodeInterpreterTools } from '../src/tools/code-interpreter/integrations
 import { BrowserTools } from '../src/tools/browser/integrations/vercel-ai/index.js'
 
 const testRegion = process.env.AWS_REGION || 'us-west-2'
-const modelId = process.env.MODEL_ID || 'global.anthropic.claude-sonnet-4-6'
+const modelId = process.env.MODEL_ID || 'global.anthropic.claude-sonnet-5-5'
 
 describe('ToolLoopAgent with CodeInterpreter', () => {
   let codeInterpreter: CodeInterpreterTools
